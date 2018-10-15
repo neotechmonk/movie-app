@@ -1,0 +1,30 @@
+{
+  "name": "movie-app",
+  "scripts": {
+  },
+  "env": {
+    "DB_URI_DEV": {
+      "required": true
+    },
+    "DB_URI_PROD": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    },
+    "SITE_NAME": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
